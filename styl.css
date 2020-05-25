@@ -1,0 +1,228 @@
+*{
+
+
+	padding: 0;
+	margin: 0;
+
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+	body {
+  margin: 0;
+  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: white;
+}
+
+
+
+
+.wrapper{
+
+	width: 100%
+	height:auto;
+	min-height: 300px;
+	padding: 0 66px;
+	background-color: brown;
+}
+.content-img{
+	text-shadow:all;
+	float: flex;
+
+
+}
+
+.slide{
+	width: 87%;
+	height: 650px;
+	position: relative;
+	border-image: url("./images/picture3.jpg") no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.slide h1{
+ 
+ text:black;
+}
+
+.header{
+
+
+	position: relative;
+	padding: 60px  66px;
+
+}
+
+.header img.logo{
+	width: 80%;
+	
+	
+
+
+
+}
+.header .logo{
+	float: left;
+}
+.header .menu{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+. menu ul li a {
+	display: block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Myriad Pro
+}
+
+.slidetitle{
+		position: absolute;
+		top: 50%;
+		left: 50%
+		transform: translate(-50%, -50%);
+		color: blue;
+		font-family: Myriad Pro
+		background-color: none;
+		
+
+}
+.slidetitle h1{
+	font-size: 50px;
+
+
+}
+.slidetitle p{
+		font-size: 16px;
+		padding: 0 80px;
+		text-align: center;
+
+
+}
+
+.content{
+		padding: 0 40px;
+
+
+}
+
+.content-title{
+		display: inline-block;
+		width : 100%;
+		text-align: center;
+		padding: 35px 0;
+		
+
+}
+.content-title h2{
+		font-size: 20px;
+		font-family: Myriad Pro;
+		color: #333333;
+
+		
+
+}
+.border span{
+
+	width : 9px;
+	height: 9px;
+	margin: 0 3px;
+	background-color: #9aabcf;
+	border-radius: 100px;
+	display: inline-block;
+}
+.firstpost{
+	text-overflow: all;
+	text-decoration-color: red;
+}
+.Blogpost2{
+	
+	text-decoration-color: red;
+	text-shadow: blue;
+}
+
+p.content-desc{
+	font-size: 16px;
+	color: #393838;
+	padding: 0 5px;
+	width: 60%
+	display inline-block;
+	text-align: center;
+	float: left;
+	font-family: Myriad Pro;
+
+}
+
+.relatedleft img{
+	width: 60%;
+}
+
+.relatedleft1 img{
+	width: 50%;
+}
+.relatedleft2 img{
+	width: 50%;
+}
+.relatedleft3 img{
+	width: 50%;
+}
+.relatedleft4 img{
+	width: 50%;
+}
+.relatedleft5 img{
+	width: 30%;
+	float: center;
+}
+.about-content,.desk-img{
+width: 100%;
+float: left;
+display: inline-block;
+font-family: Myriad Pro;
+color: #9aabcf;
+padding-top: 35px 0; 
+
+}
+.about-desc{
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+.about-desc p{
+	padding-bottom: 10px;
+}
+
+.about-img{
+	width: 40%;
+	float: right;
+	display: inline-block;
+}
+.about-img img{
+	width: 60%;
+
+}
+
+.desk-img img{
+ width: 30%;
+
+}
+
+.desk-img img.desk3img{
+ margin:0 4%;
+
+}
